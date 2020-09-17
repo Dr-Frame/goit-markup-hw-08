@@ -1,0 +1,26 @@
+.hero {
+    .container {
+        padding: 200px 452px;
+        width: 1600px;
+        height: 600px;
+        background-image: url('../img/images/herobg.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    &__title {
+        margin-bottom: 30px;
+
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: $white-color;
+    }
+    &__btn {
+        margin: 0 auto;
+        @extend %main-btn;
+    }
+}
+    

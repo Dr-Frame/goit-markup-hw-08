@@ -1,0 +1,27 @@
+@mixin logo($color)  {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: $color;
+    text-decoration: none;
+}
+
+@mixin elementFlex ($type: flex, $placeX: center, $placeY: center) {
+    display: $type;
+    justify-content: $placeX;
+    align-items: $placeY;
+}
+
+$backgrounds: "mobile" , "desctop", "design";
+
+@mixin generateBg ($bgList) {
+    
+    @each $bgName in $bgList {
+        .activity__card-wrapper_#{$bgName} {
+            background-image: url(../img/images/#{$bgName}.jpg);
+        }
+    }
+}

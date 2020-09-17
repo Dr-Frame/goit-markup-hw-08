@@ -1,0 +1,35 @@
+.advantage {
+    padding: 94px 0;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: calc((100% - 90px) / 4);
+        margin-right: 30px;
+
+        &:nth-child(4) {
+            margin-right: 0;
+        }
+    }
+    &__svg-bg {
+        @include elementFlex ();
+        margin-bottom: 30px;
+        height: 120px;
+
+        background-color: $bg-grey;
+        border-radius: 4px;
+    }
+
+    &__title{
+        margin-bottom: 10px;
+        @extend %h3-title;
+    }
+
+    &__text {
+        @extend %text-description;
+    }
+
+}

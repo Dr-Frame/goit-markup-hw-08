@@ -1,0 +1,83 @@
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+
+    &__logo {
+        @include logo ($secondary-color);
+        text-decoration: none;
+
+        span {
+            color: $hover-color;
+        }
+    }
+
+    &__link-list {
+        display: flex;
+
+        li {
+            margin-right: 50px;
+        }
+
+        li:nth-child(3) {
+            margin-right: 0;
+        }
+    }
+
+    &__item {
+        padding: 32px 0;
+        @extend %header-links;
+        color: $secondary-color;
+
+        &:hover,
+        &:focus {
+            color: $hover-color;
+        }
+    }
+    
+    &__item_active {
+        color: $hover-color;
+
+        &:before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 4px;
+            background-color: $hover-color;
+            border-radius: 2px;
+        }
+    }   
+
+}
+
+address {
+    display: flex;
+    margin-left: auto;
+    font-style: normal;
+}
+
+.contact-links {
+    margin: 0;
+    display: flex;
+
+    &__item {
+        display: inline-flex;
+        margin-right: 30px;
+        @extend %header-links;
+        color: $main-color;
+
+        &:hover, 
+        &:focus {
+            color: $hover-color;
+        }
+    }
+    &__icon {
+        margin-right: 10px;
+        fill: currentColor;
+    }
+}
