@@ -2,6 +2,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+body.modal-open {
+    overflow: hidden;
+}
+
 *,
 *::before,
 *::after {
@@ -29,11 +33,11 @@ button {
     background-color: transparent;
 }
 
-/* .container {
+.container {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-} */
+}
 
 .title {
     margin-bottom: 50px;

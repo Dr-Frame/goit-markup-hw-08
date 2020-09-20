@@ -1,0 +1,149 @@
+@media screen and (min-width: 400px) {
+    .footer {
+        .container {
+            padding: 60px 15px;
+            background-color: #2F303A;
+        }
+
+        &__address-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        &__logo {
+            margin-bottom: 20px;
+            @include logo($white-color);
+            font-size: 24px;
+            line-height: 28px;
+
+
+            span {
+                color: $hover-color;
+            }
+        }
+
+        &__contacts {
+            display: block;
+            margin-bottom: 8px;
+
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            font-style: normal;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
+
+            &:first-child {
+                color: $white-color;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        &__social-text {
+            margin-bottom: 20px;
+
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+
+            color: $white-color;
+        }
+
+        &__links {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 60px;
+        }
+
+        &__links-item {
+            margin-right: 10px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &__social-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+
+            &:hover,
+            &:focus {
+                background-color: $hover-color;
+            }
+        }
+        &__icon {
+            fill: $white-color;
+        }
+
+        .form {
+            &__label {
+                display: block;
+                margin-bottom: 20px;
+
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                color: $white-color;
+            }
+
+            &__input {
+                margin-bottom: 20px;
+                padding: 15px 16px;
+                width: 100%;
+                background-color: transparent;
+
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+                border-radius: 4px;
+
+                color: rgba(255, 255, 255, 0.6);
+            }
+
+            &__btn {
+                display: flex;
+                align-items: center;
+                padding: 10px 29px;
+                margin: 0 auto;
+                width: 200px;
+                height: 50px;
+            
+                background: $hover-color;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                border-radius: 4px;
+            
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 30px;
+                text-align: center;
+                letter-spacing: 0.06em;
+                color: $white-color;
+            
+                border: none;
+                cursor: pointer;
+            }
+
+            &__icon {
+                margin-left: 10px;
+            }
+        }
+        
+    }
+}

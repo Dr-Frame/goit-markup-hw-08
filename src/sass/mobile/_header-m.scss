@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 400px) and (max-width: 767px) {
 
     .container_mobile {
         position: relative;
@@ -26,13 +26,21 @@
 
         .menu-button {
             margin-left: auto;
+            
+            &:focus,
+            &:hover {
+                fill: $hover-color;
+            }
+
             &__icon_cross {
                 display: none;
             }
 
             &.is-open {
+                
                 .menu-button__icon_cross {
                     display: block;
+                    fill: $hover-color;
                 }
 
                 .menu-button__icon_humburger {
