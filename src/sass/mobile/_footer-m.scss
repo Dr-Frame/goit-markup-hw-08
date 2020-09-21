@@ -1,16 +1,22 @@
 @media screen and (min-width: 400px) {
     .footer {
-        .container {
-            padding: 60px 15px;
-            background-color: #2F303A;
+
+        @media screen and (max-width: 767px) {
+            .container {
+                padding: 60px 15px;
+                background-color: #2F303A;
+            }
+
+            &__address-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 60px;
+            }
         }
 
-        &__address-wrapper {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 60px;
-        }
+
+        
 
         &__logo {
             margin-bottom: 20px;

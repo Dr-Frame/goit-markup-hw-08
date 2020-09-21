@@ -9,6 +9,7 @@
         align-items: center;
     
         &__logo {
+            margin-right: 93px;
             @include logo ($secondary-color);
             text-decoration: none;
     
@@ -16,9 +17,21 @@
                 color: $hover-color;
             }
         }
+
+        button {
+            display: none;
+        }
+
+        &__menu-mobile {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
     
         &__link-list {
             display: flex;
+            align-items: center;
+            margin-right: 300px;
     
             li {
                 margin-right: 50px;
@@ -63,25 +76,30 @@
     
     }
     
-    address {
-        display: flex;
-        margin-left: auto;
-        font-style: normal;
-    }
     
     .contact-links {
-        margin: 0;
+        margin-left: auto;
         display: flex;
+
+        li {
+            display: inline-flex;
+            margin-right: 30px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
     
         &__item {
             display: inline-flex;
-            margin-right: 30px;
             position: relative;
-            display: block;
+
             text-decoration: none;
             font-weight: 500;
             font-size: 14px;
             line-height: 16px;
+            font-style: normal;
             letter-spacing: 0.02em;
             transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
             color: $main-color;
@@ -90,6 +108,7 @@
             &:focus {
                 color: $hover-color;
             }
+
         }
         &__icon {
             margin-right: 10px;

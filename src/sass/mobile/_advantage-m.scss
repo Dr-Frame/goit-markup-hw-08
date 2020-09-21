@@ -1,8 +1,12 @@
 @media (min-width: 400px) {
-    .advantage {
-        .container {
+
+    @media (max-width: 767px) {
+        .container_mob-advan {
             padding: 60px 15px;
         }
+    }
+
+    .advantage {
 
         &__item {
             margin-bottom: 30px;
@@ -15,7 +19,7 @@
         &__svg-bg {
             margin-bottom: 30px;
             padding: 25px 0;
-            background-color:$bg-grey;
+            background-color: $bg-grey;
         }
 
         &__icon {
@@ -47,5 +51,5 @@
 
     }
 
-    
+
 }
