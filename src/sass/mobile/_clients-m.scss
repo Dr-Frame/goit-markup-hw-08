@@ -1,10 +1,9 @@
-@media screen and (min-width: 400px) {
     .clients {
-        @media (max-width: 767px) {
             .container {
                 padding: 60px 15px;
+                @extend %container;
             }
-        }
+
         
 
         .title {
@@ -62,5 +61,3 @@
             }
         }
     }
-
-}

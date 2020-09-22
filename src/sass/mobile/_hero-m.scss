@@ -1,7 +1,7 @@
-@media (min-width: 400px) {
     .hero {
 
         .container {
+            @extend %container;
             padding: 118px 60px;
             background-image: url('../img/images/herobg.jpg');
             background-position: center;
@@ -43,4 +43,3 @@
             transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     }
-}

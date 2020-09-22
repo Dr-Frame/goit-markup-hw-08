@@ -1,12 +1,18 @@
 @media screen and (max-width: 767px) {
-
     .container_mobile {
         position: relative;
         padding: 0;
+
     }
 
     .navigation {
         padding: 16px 15px;
+
+        @media screen and (min-width: 480px) and (max-width: 767px) {
+            width: 480px;
+        }
+
+        margin: 0 auto;
 
         &__top {
             display: flex;
@@ -26,8 +32,6 @@
         .menu-button {
             margin-left: auto;
 
-            z-index: 99;
-            
             &:focus,
             &:hover {
                 fill: $hover-color;
@@ -38,7 +42,7 @@
             }
 
             &.is-open {
-                
+
                 .menu-button__icon_cross {
                     display: block;
                     fill: $hover-color;
@@ -58,7 +62,7 @@
             left: 0%;
             width: 100%;
             background-color: #fff;
-            
+
 
             transform: translateX(-100%);
 
@@ -67,7 +71,7 @@
             &.is-open {
                 transform: translateX(0);
             }
-            
+
         }
 
         &__link-list {
@@ -167,7 +171,4 @@
             fill: currentColor;
         }
     }
-
-
-
 }
