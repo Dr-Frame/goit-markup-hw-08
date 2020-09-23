@@ -1,44 +1,44 @@
-.advantage {
+@media screen and (max-width:1199px) {
+    .advantage {
 
-    &__item {
-        margin-bottom: 30px;
-
-        &:last-child {
-            margin-bottom: 0;
+        &__item {
+            margin-bottom: 30px;
+    
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
+    
+        &__svg-bg {
+            margin-bottom: 30px;
+            padding: 25px 0;
+            background-color: $bg-grey;
+        }
+    
+        &__icon {
+            display: block;
+            margin: 0 auto;
+        }
+    
+        &__title {
+            margin-bottom: 10px;
+    
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: $secondary-color;
+        }
+    
+        &__text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.03em;
+            color: $main-color;
+        }
+    
     }
-
-    &__svg-bg {
-        margin-bottom: 30px;
-        padding: 25px 0;
-        background-color: $bg-grey;
-    }
-
-    &__icon {
-        display: block;
-        margin: 0 auto;
-    }
-
-    &__title {
-        margin-bottom: 10px;
-
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: $secondary-color;
-    }
-
-    &__text {
-
-
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
-        color: $main-color;
-    }
-
 }

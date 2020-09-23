@@ -1,9 +1,7 @@
 @media screen and (min-width: 1200px) {
     .team {
-        padding: 94px 0;
-        width: 1600px;
+        max-width: 1600px;
         margin: 0 auto;
-
         background-color: $bg-grey;
     
         &__list {
@@ -12,23 +10,67 @@
         &__item {
             width: calc((100% - 90px) / 4);
             margin-right: 30px;
-            margin-bottom: 0;
+    
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 4px 4px;
+            overflow: hidden;
     
             &:nth-child(4) {
                 margin-right: 0;
             }
         }
-
+        
         &__wrapper {
             padding: 30px 0;
+            background-color: #fff;
+        }
+
+        &__member {
+            margin-bottom: 10px;
+    
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: $secondary-color;
+        }
+        &__descr {
+            margin-bottom: 16px;
+    
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: $main-color;
         }
 
         &__social {
             @include elementFlex($placeX: space-between);
             padding: 0 32px;
+        }
+        &__social-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+    
+            &:hover,
+            &:focus {
+                background-color: $hover-color;
+            }
+        }
 
-            li {
-                margin-right: 0;
+        &__icon {
+            fill: $icons-border-color;
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    
+            .team__social-links:hover & {
+                fill: $white-color;
             }
         }
     

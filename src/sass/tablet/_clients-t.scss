@@ -1,5 +1,4 @@
-@media screen and (min-width: 768px) {
-
+@media screen and (min-width: 768px) and (max-width:1199px) {
     .clients {
         &__wrapper {
             width: calc((100% - 60px) / 3);

@@ -2,6 +2,7 @@
     header .container {
         display: flex;
         align-items: center;
+        padding: 0 15px;
     }
     
     .navigation {
@@ -21,17 +22,15 @@
         button {
             display: none;
         }
-
+    
         &__menu-mobile {
             display: flex;
             align-items: center;
-            justify-content: space-between;
         }
-    
+
         &__link-list {
-            display: flex;
-            align-items: center;
             margin-right: 300px;
+            display: flex;
     
             li {
                 margin-right: 50px;
@@ -76,9 +75,14 @@
     
     }
     
-    
-    .contact-links {
+    address {
+        display: flex;
         margin-left: auto;
+        font-style: normal;
+    }
+
+    .contact-links {
+        margin: 0;
         display: flex;
 
         li {

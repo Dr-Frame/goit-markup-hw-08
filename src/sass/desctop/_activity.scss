@@ -1,8 +1,11 @@
 @media screen and (min-width: 1200px) {
     .activity {
-        display: block;
-        padding-bottom: 94px;
-    
+
+        .container {
+            padding-top: 0;
+        }
+
+
         &__list {
             @include elementFlex();
         }
