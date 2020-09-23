@@ -1,0 +1,36 @@
+@media screen and (min-width: 768px) {
+    .advantage {
+
+        &__list {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        &__item {
+            width: calc((100% - 30px) / 2);
+            margin-right: 30px;
+            margin-bottom: 30px;
+    
+            &:nth-child(even) {
+                margin-right: 0;
+            }
+            &:nth-last-child(-n + 2) {
+                margin-bottom: 0;
+            }
+        }
+        &__svg-bg {
+            @include elementFlex ();
+            height: 120px;
+            border-radius: 4px;
+        }
+    
+        &__title{
+            text-align: left;
+        }
+
+        &__text--tablet {
+            min-height: 75px;
+        }
+    
+    }
+}

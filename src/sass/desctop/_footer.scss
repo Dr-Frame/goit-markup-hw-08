@@ -9,6 +9,10 @@
             align-items: baseline;
             padding: 60px 15px;
         }
+
+        &__tablet-wrapper {
+            display: flex;
+        }
     
         &__logo {
             display: block;

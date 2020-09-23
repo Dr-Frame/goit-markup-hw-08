@@ -1,60 +1,55 @@
-    .clients {
-        .container {
-            padding: 60px 15px;
-        }
+.clients {
 
-        .title {
-            font-weight: 700;
-            font-size: 28px;
-            line-height: 33px;
-            text-align: center;
-            letter-spacing: 0.03em;
-            color: $secondary-color;
-        }
+    .title {
+        margin-bottom: 30px;
 
-        &__list {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
+        font-size: 28px;
+        line-height: 33px;
+    }
 
-        &__wrapper {
-            width: calc((100% - 30px) / 2);
-            margin-right: 30px;
-            margin-bottom: 30px;
-            height: 90px;
+    &__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
-            @media (max-width: 767px) {
-                &:nth-child(even) {
-                    margin-right: 0;
-                }
-                &:nth-last-child(-n + 2) {
-                    margin-bottom: 0;
-                }
+    &__wrapper {
+        width: calc((100% - 30px) / 2);
+        margin-right: 30px;
+        margin-bottom: 30px;
+        height: 90px;
+
+        @media (max-width: 767px) {
+            &:nth-child(even) {
+                margin-right: 0;
             }
-            
+            &:nth-last-child(-n + 2) {
+                margin-bottom: 0;
+            }
         }
+        
+    }
 
-        &__link {
-            @include elementFlex();
-            width: 100%;
-            height: 100%;
-            border: 1px solid $main-color;
-            border-radius: 4px;
-            /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-    
-            &:hover,
-            &:focus {
-                border: 1px solid $hover-color;
-            }
-        }       
-        &__icon {
-            /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);  */  
-            fill: $main-color;
-    
-            .clients__link:hover &,
-            .clients__link:focus & {
-                fill: $hover-color;
-            }
+    &__link {
+        @include elementFlex();
+        width: 100%;
+        height: 100%;
+        border: 1px solid $icons-border-color;
+        border-radius: 4px;
+        /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
+        &:hover,
+        &:focus {
+            border: 1px solid $hover-color;
+        }
+    }       
+    &__icon {
+        /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);  */  
+        fill: $icons-border-color;
+
+        .clients__link:hover &,
+        .clients__link:focus & {
+            fill: $hover-color;
         }
     }
+}
