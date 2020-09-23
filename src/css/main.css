@@ -37,6 +37,10 @@ button {
 
 .container {
   margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -62,10 +66,6 @@ button {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .container {
     width: 480px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-right: 15px;
-    padding-left: 15px;
   }
 }
 
@@ -136,6 +136,10 @@ button {
 
 .container {
   margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -161,10 +165,6 @@ button {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .container {
     width: 480px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-right: 15px;
-    padding-left: 15px;
   }
 }
 
@@ -1185,6 +1185,10 @@ button {
 
 .container {
   margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1210,10 +1214,6 @@ button {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .container {
     width: 480px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-right: 15px;
-    padding-left: 15px;
   }
 }
 
@@ -2054,6 +2054,10 @@ button {
 
 .container {
   margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -2079,10 +2083,6 @@ button {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .container {
     width: 480px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-right: 15px;
-    padding-left: 15px;
   }
 }
 
