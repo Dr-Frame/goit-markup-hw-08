@@ -35,11 +35,20 @@ button {
   background-color: transparent;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
     padding: 0 15px;
-    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 480px;
   }
 }
 
@@ -65,16 +74,6 @@ button {
 }
 
 /* main page ---------------------------------------------------------------------------- */
-.hero .container, .advantage .container, .team .container_team, .clients .container, .footer .container, .project .container {
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .hero .container, .advantage .container, .team .container_team, .clients .container, .footer .container, .project .container {
-    width: 480px;
-  }
-}
-
 /* @import './desctop/index-desctop'; */
 body {
   font-family: 'Roboto', sans-serif;
@@ -113,11 +112,20 @@ button {
   background-color: transparent;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
     padding: 0 15px;
-    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 480px;
   }
 }
 
@@ -143,16 +151,6 @@ button {
 }
 
 /* main page ---------------------------------------------------------------------------- */
-.hero .container, .advantage .container, .team .container_team, .clients .container, .footer .container, .project .container {
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .hero .container, .advantage .container, .team .container_team, .clients .container, .footer .container, .project .container {
-    width: 480px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .container_mobile {
     position: relative;
@@ -413,11 +411,6 @@ button {
   .activity {
     display: none;
   }
-}
-
-.team .container_team {
-  padding: 60px 15px;
-  background-color: #F5F4FA;
 }
 
 @media screen and (max-width: 767px) {
@@ -1207,11 +1200,20 @@ button {
   background-color: transparent;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
     padding: 0 15px;
-    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 480px;
   }
 }
 
@@ -1237,16 +1239,6 @@ button {
 }
 
 /* main page ---------------------------------------------------------------------------- */
-.hero .container, .advantage .container, .team .container_team, .clients .container, .footer .container, .project .container {
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .hero .container, .advantage .container, .team .container_team, .clients .container, .footer .container, .project .container {
-    width: 480px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   header .container {
     display: -webkit-box;

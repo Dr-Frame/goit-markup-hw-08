@@ -1,10 +1,6 @@
 .project {
     padding: 60px 15px;
 
-    .container {
-        @extend %container
-    }
-
     &__filter {
         display: flex;
         flex-wrap: wrap;

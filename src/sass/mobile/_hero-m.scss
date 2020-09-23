@@ -1,7 +1,6 @@
     .hero {
 
         .container {
-            @extend %container;
             padding: 118px 60px;
             background-image: url('../img/images/herobg.jpg');
             background-position: center;

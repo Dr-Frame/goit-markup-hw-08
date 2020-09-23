@@ -33,13 +33,19 @@ button {
     background-color: transparent;
 }
 
-@media screen and (min-width: 1200px) {
-    .container {
+.container {
+    margin: 0 auto;
+
+    @media screen and (min-width: 1200px) {
         width: 1200px;
         padding: 0 15px;
-        margin: 0 auto;
+    }
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        width: 480px;
     }
 }
+
+
 
 
 .title {

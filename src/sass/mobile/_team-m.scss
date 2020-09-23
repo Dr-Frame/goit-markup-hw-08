@@ -1,11 +1,4 @@
     .team {
-        
-        .container_team {
-            padding: 60px 15px;
-            background-color: $bg-grey;
-            
-            @extend %container;
-        }
 
         @media screen and (max-width: 767px) {
             .container_team {
