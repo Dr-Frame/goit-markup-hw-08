@@ -26,8 +26,10 @@
                     <button class="menu-button" aria-expanded="false" aria-controls="menu-mobile" data-menu-button>
 
                         <svg width="40" height="40" aria-label="Переключатель мобильного меню">
-                            <use class="menu-button__icon menu-button__icon_humburger" href="./src/img/icons/sprite.svg#icon-humburger"></use>
-                            <use class="menu-button__icon menu-button__icon_cross" href="./src/img/icons/sprite.svg#icon-close"></use>
+                            <use class="menu-button__icon menu-button__icon_humburger"
+                                href="./src/img/icons/sprite.svg#icon-humburger"></use>
+                            <use class="menu-button__icon menu-button__icon_cross"
+                                href="./src/img/icons/sprite.svg#icon-close"></use>
                         </svg>
                     </button>
                 </div>
@@ -41,7 +43,8 @@
                     <address>
                         <ul class="contact-links">
                             <li><a href="mailto:info@devstudio.com" class="contact-links__item">
-                                    <svg class="contact-links__icon contact-links__icon--envelope" width="16" height="16">
+                                    <svg class="contact-links__icon contact-links__icon--envelope" width="16"
+                                        height="16">
                                         <use href="./src/img/icons/sprite.svg#icon-envelope"></use>
                                     </svg>
                                     info@devstudio.com
@@ -80,7 +83,8 @@
                             </svg>
                         </div>
                         <h3 class="advantage__title">Внимание к деталям</h3>
-                        <p class="advantage__text advantage__text--tablet">Идейные соображения, а также начало повседневной работы по
+                        <p class="advantage__text advantage__text--tablet">Идейные соображения, а также начало
+                            повседневной работы по
                             формированию позиции.</p>
                     </li>
                     <li class="advantage__item">
@@ -90,7 +94,8 @@
                             </svg>
                         </div>
                         <h3 class="advantage__title">Пунктуальность</h3>
-                        <p class="advantage__text advantage__text--tablet">Задача организации, в особенности же рамки и место обучения кадров
+                        <p class="advantage__text advantage__text--tablet">Задача организации, в особенности же рамки и
+                            место обучения кадров
                             влечет за собой.</p>
                     </li>
                     <li class="advantage__item">
@@ -142,7 +147,19 @@
                 <h2 class="title team__title">Наша команда</h2>
                 <ul class="team__list">
                     <li class="team__item">
-                        <img src="./src/img/images/igor.jpg" alt="Фото Игоря" width="270" height="260">
+                        <picture>
+                            <source srcset="
+                                    ./src/img/images/igor-mob-450.jpg 1x,
+                                    ./src/img/images/igor-mob-450-2x.jpg 2x" media="(max-width: 767px)">
+
+                            <source srcset="
+                                    ./src/img/images/igor-tablet-354.jpg 1x,
+                                    ./src/img/images/igor-tablet-354-2x.jpg 2x" media="(max-width: 1199px)">
+                            <source srcset="
+                                    ./src/img/images/igor-desctop-270.jpg 1x,
+                                    ./src/img/images/igor-desctop-270-2x.jpg 2x" media="(min-width: 1200px)">
+                            <img src="./src/img/images/igor-mob-450.jpg" alt="Фото Игоря" width="270" height="260">
+                        </picture>
                         <div class="team__wrapper">
                             <h3 class="team__member">Игорь Демьяненко</h3>
                             <p class="team__descr">Product Designer</p>
@@ -179,7 +196,20 @@
                         </div>
                     </li>
                     <li class="team__item">
-                        <img src="./src/img/images/olga.jpg" alt="Фото Ольги" width="270" height="260">
+                        <picture>
+                            <source srcset="
+                                    ./src/img/images/olga-mob-450.jpg 1x,
+                                    ./src/img/images/olga-mob-450-2x.jpg 2x" media="(max-width: 767px)">
+
+                            <source srcset="
+                                    ./src/img/images/olga-tablet-354.jpg 1x,
+                                    ./src/img/images/olga-tablet-354-2x.jpg 2x" media="(max-width: 1199px)">
+                            <source srcset="
+                                    ./src/img/images/olga-desctop-270.jpg 1x,
+                                    ./src/img/images/olga-desctop-270-2x.jpg 2x" media="(min-width: 1200px)">
+                            <img src="./src/img/images/olga-mob-450.jpg" alt="Фото Ольги" width="270" height="260">
+                        </picture>
+                        
                         <div class="team__wrapper">
                             <h3 class="team__member">Ольга Репина</h3>
                             <p class="team__descr">Frontend Developer</p>
@@ -216,7 +246,19 @@
                         </div>
                     </li>
                     <li class="team__item">
-                        <img src="./src/img/images/nikola.jpg" alt="Фото Николая" width="270" height="260">
+                        <picture>
+                            <source srcset="
+                                    ./src/img/images/nikola-mob-450.jpg 1x,
+                                    ./src/img/images/nikola-mob-450-2x.jpg 2x" media="(max-width: 767px)">
+
+                            <source srcset="
+                                    ./src/img/images/nikola-tablet-354.jpg 1x,
+                                    ./src/img/images/nikola-tablet-354-2x.jpg 2x" media="(max-width: 1199px)">
+                            <source srcset="
+                                    ./src/img/images/nikola-desctop-270.jpg 1x,
+                                    ./src/img/images/nikola-desctop-270-2x.jpg 2x" media="(min-width: 1200px)">
+                            <img src="./src/img/images/nikola-mob-450.jpg" alt="Фото Николая" width="270" height="260">
+                        </picture>
                         <div class="team__wrapper">
                             <h3 class="team__member">Николай Тарасов</h3>
                             <p class="team__descr">Marketing</p>
@@ -253,7 +295,19 @@
                         </div>
                     </li>
                     <li class="team__item">
-                        <img src="./src/img/images/michael.jpg" alt="Фото Михаила" width="270" height="260">
+                        <picture>
+                            <source srcset="
+                                    ./src/img/images/michael-mob-450.jpg 1x,
+                                    ./src/img/images/michael-mob-450-2x.jpg 2x" media="(max-width: 767px)">
+
+                            <source srcset="
+                                    ./src/img/images/michael-tablet-354.jpg 1x,
+                                    ./src/img/images/michael-tablet-354-2x.jpg 2x" media="(max-width: 1199px)">
+                            <source srcset="
+                                    ./src/img/images/michael-desctop-270.jpg 1x,
+                                    ./src/img/images/michael-desctop-270-2x.jpg 2x" media="(min-width: 1200px)">
+                            <img src="./src/img/images/michael-mob-450.jpg" alt="Фото Михаила" width="270" height="260">
+                        </picture>
                         <div class="team__wrapper">
                             <h3 class="team__member">Михаил Ермаков</h3>
                             <p class="team__descr">UI Designer</p>
@@ -355,7 +409,7 @@
                         <a href="tel:+380991111111" class="footer__contacts">+38 099 111 11 11</a>
                     </address>
                 </div>
-    
+
                 <div class="footer__social-wrapper">
                     <p class="footer__social-text">присоединяйтесь</p>
                     <ul class="footer__links">
@@ -390,7 +444,7 @@
                     </ul>
                 </div>
             </div>
-            
+
 
             <form class="form">
                 <div class="form__mail-wrapper">

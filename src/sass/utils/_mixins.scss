@@ -15,7 +15,7 @@
     align-items: $placeY;
 }
 
-$backgrounds: "mobile" , "desctop", "design";
+$backgrounds: "mobile-370" , "desctop-370", "design-370";
 
 @mixin generateBg ($bgList) {
     

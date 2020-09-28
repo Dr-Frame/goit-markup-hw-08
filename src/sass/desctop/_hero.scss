@@ -4,10 +4,18 @@
             padding: 200px 0;
             max-width: 1600px;
             width: inherit;
-            background-image: linear-gradient(rgba(47, 48, 58, 0.8)), url('../img/images/herobg.jpg');
+            background-image: linear-gradient(rgba(47, 48, 58, 0.8)), url('../img/images/hero-desctop-1600.jpg');
             background-position: center;
             background-size: cover;
             
+        }
+
+        @media screen and (min-device-pixel-ratio: 2),
+            screen and (min-resolution: 192dpi),
+            screen and (min-resolution: 2dppx) {
+            .container {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.8)), url('../img/images/hero-desctop-1600-2x.jpg');
+            }
         }
         &__title {
             margin-right: auto;

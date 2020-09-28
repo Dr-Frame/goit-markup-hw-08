@@ -9,6 +9,8 @@
         &__list {
             @include elementFlex();
         }
+
+
     
         &__card-wrapper {
             position: relative;
@@ -18,7 +20,47 @@
             &:nth-child(3) {
                 margin-right: 0;
             }
+
+            &_desctop {
+                background-image: url(/src/img/images/desctop-370.jpg);
+                background-size: cover;
+            }
+            @media screen and (min-device-pixel-ratio: 2),
+                screen and (min-resolution: 192dpi),
+                screen and (min-resolution: 2dppx) {
+                    &_desctop {
+                        background-image: url(/src/img/images/desctop-370-2x.jpg);
+                    }
+                    
+                }
+            
+            &_mobile {
+                background-image: url(/src/img/images/mobile-370.jpg);
+                background-size: cover;
+            }
+            @media screen and (min-device-pixel-ratio: 2),
+                screen and (min-resolution: 192dpi),
+                screen and (min-resolution: 2dppx) {
+                    &_mobile {
+                        background-image: url(/src/img/images/mobile-370-2x.jpg);
+                    }
+                    
+                }
+
+            &_design {
+                background-image: url(/src/img/images/design-370.jpg);
+                background-size: cover;
+            }
+            @media screen and (min-device-pixel-ratio: 2),
+                screen and (min-resolution: 192dpi),
+                screen and (min-resolution: 2dppx) {
+                    &_design {
+                        background-image: url(/src/img/images/design-370-2x.jpg);
+                    }
+                    
+                }
         }
+
         &__text {
             position: absolute;
             padding: 27px 0;
@@ -36,6 +78,6 @@
         }
     }
     
-    @include generateBg($backgrounds);
+    /* @include generateBg($backgrounds); */
 }
 
