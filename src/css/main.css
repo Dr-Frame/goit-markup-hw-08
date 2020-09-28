@@ -1522,40 +1522,40 @@ button {
     margin-right: 0;
   }
   .activity__card-wrapper_desctop {
-    background-image: url(/src/img/images/desctop-370.jpg);
+    background-image: url(../img/images/desctop-370.jpg);
     background-size: cover;
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .activity__card-wrapper_desctop {
-    background-image: url(/src/img/images/desctop-370-2x.jpg);
+    background-image: url(../img/images/desctop-370-2x.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .activity__card-wrapper_mobile {
-    background-image: url(/src/img/images/mobile-370.jpg);
+    background-image: url(../img/images/mobile-370.jpg);
     background-size: cover;
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .activity__card-wrapper_mobile {
-    background-image: url(/src/img/images/mobile-370-2x.jpg);
+    background-image: url(../img/images/mobile-370-2x.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .activity__card-wrapper_design {
-    background-image: url(/src/img/images/design-370.jpg);
+    background-image: url(../img/images/design-370.jpg);
     background-size: cover;
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .activity__card-wrapper_design {
-    background-image: url(/src/img/images/design-370-2x.jpg);
+    background-image: url(../img/images/design-370-2x.jpg);
   }
 }
 

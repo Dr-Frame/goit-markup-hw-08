@@ -22,40 +22,40 @@
             }
 
             &_desctop {
-                background-image: url(/src/img/images/desctop-370.jpg);
+                background-image: url(../img/images/desctop-370.jpg);
                 background-size: cover;
             }
             @media screen and (min-device-pixel-ratio: 2),
                 screen and (min-resolution: 192dpi),
                 screen and (min-resolution: 2dppx) {
                     &_desctop {
-                        background-image: url(/src/img/images/desctop-370-2x.jpg);
+                        background-image: url(../img/images/desctop-370-2x.jpg);
                     }
                     
                 }
             
             &_mobile {
-                background-image: url(/src/img/images/mobile-370.jpg);
+                background-image: url(../img/images/mobile-370.jpg);
                 background-size: cover;
             }
             @media screen and (min-device-pixel-ratio: 2),
                 screen and (min-resolution: 192dpi),
                 screen and (min-resolution: 2dppx) {
                     &_mobile {
-                        background-image: url(/src/img/images/mobile-370-2x.jpg);
+                        background-image: url(../img/images/mobile-370-2x.jpg);
                     }
                     
                 }
 
             &_design {
-                background-image: url(/src/img/images/design-370.jpg);
+                background-image: url(../img/images/design-370.jpg);
                 background-size: cover;
             }
             @media screen and (min-device-pixel-ratio: 2),
                 screen and (min-resolution: 192dpi),
                 screen and (min-resolution: 2dppx) {
                     &_design {
-                        background-image: url(/src/img/images/design-370-2x.jpg);
+                        background-image: url(../img/images/design-370-2x.jpg);
                     }
                     
                 }
