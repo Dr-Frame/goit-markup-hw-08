@@ -1,8 +1,10 @@
 @media screen and (max-width:1199px) {
     .team {
-        .container {
-            background-color: $bg-grey;
-        }
+        background-color: $bg-grey;
+        max-width: 1600px;
+/*         .container {
+            
+        } */
     
         &__title {
             margin-bottom: 30px;

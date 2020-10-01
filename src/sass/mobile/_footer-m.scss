@@ -1,9 +1,7 @@
 @media screen and (max-width:1199px)  {
     .footer {
-
-        .container {
-            background-color: #2F303A;
-        }
+        background-color: #2F303A;
+        max-width: 1600px;
 
         &__address-wrapper {
             display: flex;
